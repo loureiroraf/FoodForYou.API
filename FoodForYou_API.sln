@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodForYou.API", "FoodForYou.API\FoodForYou.API.csproj", "{CCB22AE5-33F7-4C9F-8579-1B7BEA80920C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Common", "0-Common", "{28A71572-BD89-4672-8230-4F337C8CC158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Api", "1-Api", "{4FDCFC69-C273-40CB-AC82-FACA964013E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodForYou.Api.Model", "FoodForYou.Api.Model\FoodForYou.Api.Model.csproj", "{EE514F86-13F4-4CBC-B14D-CC490F2A6BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodForYou.Api.DTO", "FoodForYou.Api.DTO\FoodForYou.Api.DTO.csproj", "{B7C93D77-824A-47FD-8694-439226ADF3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodYouYou.Api.Business", "FoodYouYou.Api.Business\FoodYouYou.Api.Business.csproj", "{8CF372C9-4DA7-4A12-BD84-FB940BAA993D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodForYou.Api.Repository", "FoodForYou.Api.Repository\FoodForYou.Api.Repository.csproj", "{F66EFC99-E7D7-464B-87AD-13466FE77F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB22AE5-33F7-4C9F-8579-1B7BEA80920C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB22AE5-33F7-4C9F-8579-1B7BEA80920C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB22AE5-33F7-4C9F-8579-1B7BEA80920C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB22AE5-33F7-4C9F-8579-1B7BEA80920C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE514F86-13F4-4CBC-B14D-CC490F2A6BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE514F86-13F4-4CBC-B14D-CC490F2A6BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE514F86-13F4-4CBC-B14D-CC490F2A6BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE514F86-13F4-4CBC-B14D-CC490F2A6BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C93D77-824A-47FD-8694-439226ADF3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C93D77-824A-47FD-8694-439226ADF3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C93D77-824A-47FD-8694-439226ADF3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C93D77-824A-47FD-8694-439226ADF3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF372C9-4DA7-4A12-BD84-FB940BAA993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF372C9-4DA7-4A12-BD84-FB940BAA993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF372C9-4DA7-4A12-BD84-FB940BAA993D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF372C9-4DA7-4A12-BD84-FB940BAA993D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66EFC99-E7D7-464B-87AD-13466FE77F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66EFC99-E7D7-464B-87AD-13466FE77F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66EFC99-E7D7-464B-87AD-13466FE77F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66EFC99-E7D7-464B-87AD-13466FE77F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE4403B1-A890-4954-A087-2C61B06334C8}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCB22AE5-33F7-4C9F-8579-1B7BEA80920C} = {4FDCFC69-C273-40CB-AC82-FACA964013E5}
+		{EE514F86-13F4-4CBC-B14D-CC490F2A6BE0} = {28A71572-BD89-4672-8230-4F337C8CC158}
+		{B7C93D77-824A-47FD-8694-439226ADF3FD} = {28A71572-BD89-4672-8230-4F337C8CC158}
+		{8CF372C9-4DA7-4A12-BD84-FB940BAA993D} = {28A71572-BD89-4672-8230-4F337C8CC158}
+		{F66EFC99-E7D7-464B-87AD-13466FE77F01} = {28A71572-BD89-4672-8230-4F337C8CC158}
+	EndGlobalSection
+EndGlobal
